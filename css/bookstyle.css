@@ -64,14 +64,14 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #63D471; 
+    background-color: #63A46C; /* forest green crayola  */
     color: #000;
     border: solid 1px #CCC; 
 }
 
 .main {
     grid-area: main;
-    background-color: #63A46C;  /* forest green crayola  */
+    background-color: #63D471;  /* emerald */ 
     border: solid 1px #CCC;
 }
 

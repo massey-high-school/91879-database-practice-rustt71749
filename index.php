@@ -65,7 +65,7 @@
         
 
         <div class="box footer">
-            CC yourname 20XX
+            CC Trent Rust 2020
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
