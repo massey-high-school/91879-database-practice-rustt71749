@@ -27,15 +27,14 @@ body {
 
 .box {
     padding: 20px;
-    /* border-radius: 10px; */
-    background-color: #ddd;
+    border-radius: 10px;
 }
 
 /* Area colouring... */
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #233329;  /* pine tree */
+    background-color: #2A7221;  /* pakistan green */
 }
 
 /* Set font on dark areas to white */
@@ -57,21 +56,21 @@ body {
 
 .nav {
     grid-area: nav;
-    background-color: #233329;  /* pine tree */
+    background-color: #2A7221;  /* pakistan green */
     font-size: 150%;
     text-align: center;
 }
 
 .side {
     grid-area: side;
-    background-color: #63A46C; /* forest green crayola  */
+    background-color: #31CB00; /* lime green */
     color: #000;
     border: solid 1px #CCC; 
 }
 
 .main {
     grid-area: main;
-    background-color: #63D471;  /* emerald */ 
+    background-color: #119822;  /* slimy green  */ 
     border: solid 1px #CCC;
 }
 
@@ -88,9 +87,9 @@ h1, h2, h3, h4 {
 }
 
 /* Navigation Links */
-.nav a {font-weight: bold;}
-.nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
-.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+ a.side{font-weight: bold; text-decoration: none}
+ a.side:link, a.side:visited {color: ;} /*dark red */
+ a.side:hover {color: #604830;} /* chocolate brown */
 
 
 /* links in page */
