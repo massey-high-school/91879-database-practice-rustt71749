@@ -34,7 +34,7 @@ body {
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #2A7221;  /* pakistan green */
+    background-color: #4A5240;  /* rifle green */
 }
 
 /* Set font on dark areas to white */
@@ -56,7 +56,7 @@ body {
 
 .nav {
     grid-area: nav;
-    background-color: #2A7221;  /* pakistan green */
+    background-color: #4A5240;  /* rifle green */
     font-size: 150%;
     text-align: center;
 }
@@ -88,7 +88,7 @@ h1, h2, h3, h4 {
 
 /* Navigation Links */
  a.side{font-weight: bold; text-decoration: none}
- a.side:link, a.side:visited {color: ;} /*dark red */
+ a.side:link, a.side:visited {color: #AA0000} /*dark red */
  a.side:hover {color: #604830;} /* chocolate brown */
 
 
