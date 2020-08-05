@@ -34,7 +34,7 @@ body {
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #4A5240;  /* rifle green */
+    background-color: #0A5714;  /* rifle green */
 }
 
 /* Set font on dark areas to white */
@@ -70,7 +70,7 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #119822;  /* slimy green  */ 
+    background-color: #13AD28;  /* slimy green  */ 
     border: solid 1px #CCC;
 }
 
