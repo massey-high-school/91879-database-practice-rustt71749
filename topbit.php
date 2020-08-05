@@ -30,18 +30,18 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="images/gen_logo.png" width="150" height="150" alt="generic logo" />
+            <img class="img-circle" src="Images/beach_logo.jpg" width="160" height="91" alt="beach logo" />
             
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Reviews</h1>
+            <h1>Beach Book Reviews</h1>
         </div>
 
            
         <div class="box side">
             
-            <h2>Search | <a class="side" href="show.all.php">Show All</a></h2>
+            <h2>Search | <a class="a.side" href="show.all.php">Show All</a></h2>
           
             <i>Type Part of the Title / Author Name if Desired</i>
             
@@ -51,4 +51,5 @@
             Author Search<br />
             Genre Search<br />
             Rating Search
+        </div>
             

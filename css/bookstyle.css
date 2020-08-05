@@ -34,7 +34,7 @@ body {
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #0A5714;  /* rifle green */
+    background-color: #4A8FE7;  /* united nations blue */
 }
 
 /* Set font on dark areas to white */
@@ -63,14 +63,14 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #31CB00; /* lime green */
+    background-color: #73FBD3; /* aquamrine */
     color: #000;
     border: solid 1px #CCC; 
 }
 
 .main {
     grid-area: main;
-    background-color: #13AD28;  /* slimy green  */ 
+    background-color: #59D2FE;  /* vivid sky blue  */ 
     border: solid 1px #CCC;
 }
 
