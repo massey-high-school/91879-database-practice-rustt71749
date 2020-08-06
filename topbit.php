@@ -29,7 +29,7 @@
              
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
-            <div class="box logo"  title="Logo - Click here to go to the Home Page">
+            <div class="box logo"  title="Beach Logo - Click here to go to the Home Page">
             <img class="img-circle" src="Images/beach_logo.jpg" width="160" height="91" alt="beach logo" />
             
             </div>    <!-- / logo -->
