@@ -63,9 +63,8 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #73FBD3; /* aquamrine */
-    color: #000;
-    border: solid 1px #CCC; 
+    background-color: #73FBD3; /* aquamarine */
+    color: #000; 
 }
 
 .main {
@@ -88,8 +87,9 @@ h1, h2, h3, h4 {
 
 /* Navigation Links */
  a.side{font-weight: bold; text-decoration: none}
- a.side:link, a.side:visited {color: #AA0000} /*dark red */
- a.side:hover {color: #604830;} /* chocolate brown */
+ a.side:link {color: #E73F1E} /* sunset orange */
+ a.side:visited {color: #E73F1E} /* sunset orange */
+ a.side:hover {color: #A0A0A0;} /* grey */
 
 
 /* links in page */

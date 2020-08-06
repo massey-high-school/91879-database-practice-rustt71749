@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Put Content Here">
-    <meta name="keywords" content="Put keywords here">
-    <meta name="author" content="Put your name here">
+    <meta name="description" content="Book Reviews">
+    <meta name="keywords" content="Book, Book Reviews">
+    <meta name="author" content="Trent Rust">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Book Reviews</title>
@@ -35,13 +35,13 @@
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Beach Book Reviews</h1>
+            <h1>Beachside Book Reviews</h1>
         </div>
 
            
         <div class="box side">
             
-            <h2>Search | <a class="a.side" href="show.all.php">Show All</a></h2>
+            <h2>Search | <a class="side" href="show.all.php">Show All</a></h2>
           
             <i>Type Part of the Title / Author Name if Desired</i>
             
