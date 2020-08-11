@@ -1,6 +1,25 @@
 <!DOCTYPE HTML>
 
 <html lang="en">
+    
+<?php
+    
+    session_start();
+    include("config.php");
+    
+    // Connect to database
+    
+    $dbconnect=mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD,
+    DB_NAME);
+    
+    if (mysqli_connect_errno())
+        
+    {
+        echo "Connection failed:".mysqli_connect_error();
+         exit;
+    }
+    
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -38,18 +57,4 @@
             <h1>Beachside Book Reviews</h1>
         </div>
 
-           
-        <div class="box side">
-            
-            <h2>Search | <a class="side" href="show_all.php">Show All</a></h2>
-          
-            <i>Type Part of the Title / Author Name if Desired</i>
-            
-            <hr />
-            
-            Title Search<br />
-            Author Search<br />
-            Genre Search<br />
-            Rating Search
-        </div>
             
