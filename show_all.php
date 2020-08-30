@@ -37,6 +37,40 @@ $count=mysqli_num_rows($showall_query);
         
         do{
             
+        ?>
+    
+     <!-- Results go here -->
+    <div class="results">
+    
+        <p>Title: <span class="sub_heading"><?php echo $showall_rs['Title']; ?></span></p>
+        
+        <p>Author: <span class="sub_heading"><?php echo $showall_rs['Author']; ?></span></p>
+        
+        <p>Genre: <span class="sub_heading"><?php echo $showall_rs['Genre']; ?></span></p>
+        
+        <p>Rating: <span class="sub_heading">
+            <?php 
+            for ($x=0; $x < $showall_rs['Rating']; $x++)
+               
+            {
+                echo "&#9733";
+            }
+                
+            ?>
+            
+        </span></p>
+   
+        <p><span class="sub_heading">Review / Response</span></p>
+        
+        <p>
+            Review Placeholder
+        </p>
+        
+    </div> <!-- / end results div -->
+    
+    <br />
+    
+    <?php
         } // end of 'do'
         
         while($showall_rs=mysqli_fetch_assoc($showall_query));
