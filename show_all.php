@@ -39,7 +39,7 @@ $count=mysqli_num_rows($showall_query);
             
         } // end of 'do'
         
-        while($showall_rs=mysqli_fetch_assoc(showall_query))
+        while($showall_rs=mysqli_fetch_assoc($showall_query));
         
     }   // end else
     
