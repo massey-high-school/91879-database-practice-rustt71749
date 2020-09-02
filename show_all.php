@@ -59,12 +59,10 @@ $count=mysqli_num_rows($showall_query);
             ?>
             
         </span></p>
-   
-        <p><span class="sub_heading">Review / Response</span></p>
         
-        <p>
-            Review Placeholder
-        </p>
+        <p><span class="sub_heading">Review</span></p>
+        
+        <p><span class="sub_heading"><?php echo $showall_rs['Review']; ?></span></p>
         
     </div> <!-- / end results div -->
     
