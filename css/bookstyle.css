@@ -116,13 +116,24 @@ h1, h2, h3, h4 {
 
 /* Results Box Formatting */
 .results {
-    background-color: #F49390;
+    background-color: #F49390; /* peach */
     border-radius: 10px;
     border: 1px solid #000;
     padding: 5px;
 }
 
-/* form formatting */
+/* Error Box Formatting */
+
+.error {
+    background-color: #ffe0ed; /* pale pink */
+    border: 2px solid #8a1737; /* dark red */
+    color: #8a1737; /* dark red */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+/* Form Formatting */
 
 .search {
     width: 200px;
