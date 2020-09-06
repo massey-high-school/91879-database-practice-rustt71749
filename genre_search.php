@@ -1,14 +1,21 @@
 <?php include "topbit.php"; 
 
 // if  button pushed
-if(isset($_POST['find_author']))
+if(isset($_POST['find_rating']))
 
 {
 
-// Retrieves author and sanitises it
-$author=test_input(mysqli_real_escape_string($dbconnect, $_POST['author']));
+// Retrieves rating and sanitises it
+$amount=test_input(mysqli_real_escape_string($dbconnect, $_POST['amount']));
+$stars=test_input(mysqli_real_escape_string($dbconnect, $_POST['stars']));
     
-$find_sql="SELECT * FROM `L1_DB_Prac_TreRus` WHERE `author` LIKE '%$author%' ORDER BY `author` ASC ";
+if ($amount=="exactly")
+    
+{
+    $find_sql="SELECT * FROM `L1_DB_Prac_TreRus` WHERE `Rating` LIKE '%$rating%' ORDER BY `rating` ASC ";
+}
+
+
 $find_query=mysqli_query($dbconnect, $find_sql);
 $find_rs=mysqli_fetch_assoc($find_query);
 $count=mysqli_num_rows($find_query);
@@ -17,7 +24,7 @@ $count=mysqli_num_rows($find_query);
         
 <div class="box main">
             
-    <h1>Author Search</h1>
+    <h1>rating Search</h1>
             
     <?php
     
