@@ -77,7 +77,7 @@ enctype="multipart/form-data">
         
     </select>
     
-         <input class="submit" type="submit" name="find_genre" 
+         <input class="submit" type="submit" name="find_rating" 
                        value="Search" />
 </form>
  
