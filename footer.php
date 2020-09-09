@@ -10,7 +10,7 @@
             
     <form method="post" action="title_search.php" enctype="multipart/form-data">
      
-        <input class="search" type="text" name="title" size="40" value="" required placeholder="Title ..."   />
+        <input class="search" type="text" name="title" size="40" value="" required placeholder="Title..."   />
             
         <input class="submit" type="submit" name="find_title" 
             value="Search" />
@@ -25,7 +25,7 @@
             
     <form method="post" action="author_search.php" enctype="multipart/form-data">
      
-        <input class="search" type="text" name="author" size="40" value="" required placeholder="Author ..."   />
+        <input class="search" type="text" name="author" size="40" value="" required placeholder="Author..."   />
             
         <input class="submit" type="submit" name="find_author" 
             value="Search" />
@@ -64,7 +64,7 @@ enctype="multipart/form-data">
     <select class="half_width" name="amount">
         <option value="exactly" selected>Exactly...</option>
         <option value="more">At Least...</option>
-        <option value="less">At Most..</option>
+        <option value="less">At Most...</option>
         
     </select>
         
