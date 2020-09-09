@@ -6,10 +6,6 @@
             
             <h1>Welcome</h1>
             
-            <br />
-            
-            <br />
-            
             <p>
                 Reading is one of life's simple pleasures. Please search the database by using the tools in the sidebar. Hopefully you will find something that appeals to you.
             </p>
