@@ -13,7 +13,7 @@
         <input class="search" type="text" name="title" size="40" value="" required placeholder="Title..."   />
             
         <input class="submit" type="submit" name="find_title" 
-            value="Search" />
+            value="&#xf002;" />
         
     </form>
      
@@ -28,7 +28,7 @@
         <input class="search" type="text" name="author" size="40" value="" required placeholder="Author..."   />
             
         <input class="submit" type="submit" name="find_author" 
-            value="Search" />
+            value="&#xf002;" />
         
     </form>
      
@@ -51,14 +51,14 @@
         </select>
         
          <input class="submit" type="submit" name="find_genre" 
-                       value="Search" />
+                       value="&#xf002;" />
     </form>
      
     <!-- End of Genre Search -->
      
 <hr />
 
-<b>Ratings Search</b>
+<h3>Ratings Search</h3>
 
 <!-- Start of Ratings Form -->
 
@@ -82,7 +82,7 @@ enctype="multipart/form-data">
     </select>
     
          <input class="submit" type="submit" name="find_rating" 
-                       value="Search" />
+                       value="&#xf002;" />
 </form>
  
 <!-- End of Ratings Form -->

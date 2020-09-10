@@ -135,6 +135,42 @@ h1, h2, h3, h4 {
 
 /* Form Formatting */
 
+form {
+    width: 250px;
+    margin: 5px;
+}
 .search {
-    width: 200px;
+    width: 175px;
+    padding: 8px 15px;
+    background: #fff; /* white */
+}
+
+.submit {
+    font-family: FontAwesome;
+    position: relative;
+    width: 30px;
+    left: -1px;
+    background-color: #DB5461; /* indian red */
+    color: #ffe0ed; /* pale pink */
+    border-radius: 0 5px 5px 0;
+}
+
+input {
+    height: 40px;
+    padding; 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.half_width {
+    width: 99px;
+}
+
+select {
+    outline: 0;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #878787;
+    width: 175px;
 }
