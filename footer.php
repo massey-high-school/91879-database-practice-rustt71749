@@ -34,7 +34,9 @@
      
     <!-- End of Author Search -->
      
-     <br />
+     <hr />
+     
+     <i>Use the Dropdown Menus to Search by Genre or Rating</i>
      
     <!-- Start of Genre Search -->
             
@@ -55,7 +57,9 @@
     <!-- End of Genre Search -->
      
 <hr />
-     
+
+<b>Ratings Search</b>
+
 <!-- Start of Ratings Form -->
 
 <form method="post" action="rating_search.php"
@@ -88,7 +92,3 @@ enctype="multipart/form-data">
 <div class="box footer">
     CC Trent Rust 2020
 </div>    <!-- / footer -->
-
-</div> <!-- / wrapper -->
-
-</body>
