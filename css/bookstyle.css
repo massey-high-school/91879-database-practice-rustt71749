@@ -155,6 +155,10 @@ form {
     border-radius: 0 5px 5px 0;
 }
 
+input[type="submit"]:hover {
+    background-color: #8a1737; /* dark red */
+}
+
 input {
     height: 40px;
     padding; 10px;
@@ -164,7 +168,7 @@ input {
 }
 
 .half_width {
-    width: 99px;
+    width: 86px;
 }
 
 select {
